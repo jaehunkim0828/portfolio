@@ -16,4 +16,4 @@ const makeStore: MakeStore<any> = () => {
     return store;
 }
 
-export const wrapper = createWrapper<any>(makeStore, { debug: true });
+export const wrapper = createWrapper<any>(makeStore, { debug: false });
