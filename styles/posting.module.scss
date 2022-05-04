@@ -1,0 +1,85 @@
+@import "./theme.scss";
+
+.posting {
+  padding: 5rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40rem;
+  align-items: center;
+  background-image: url('../public/images/snow.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  @include get-color(color, text-color);
+
+  .postingTitle {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-family: "Jua", sans-serif;
+    width: 40rem;
+    @include get-color(text-shadow, shadow);
+  }
+
+  .postingContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 40rem;
+
+    .post {
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      .postImage {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 12rem;
+        height: 8rem;
+      }
+
+      .sub {
+        display: flex;
+        font-size: 0.8rem;
+        justify-content: space-between;
+        color: gray;
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .posting {
+    padding: 0;
+
+    .postingTitle {
+      width: 100%;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .postingContainer {
+      width: 80%;
+      flex-wrap: wrap;
+
+      .post {
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+
+        .postImage {
+          width: 6rem;
+          height: 4rem;
+        }
+
+        .sub {
+          font-size: 0.4rem;
+        }
+      }
+    }
+  }
+}

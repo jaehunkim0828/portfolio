@@ -1,0 +1,63 @@
+@import './theme.scss';
+
+.contact {
+    width: 100vw;
+    height: 100vh;
+    padding: 7rem 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../public/images/snow.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    @include get-color(color, text-color);
+
+    .contactContainer {
+        font-family: "Jua", sans-serif;
+
+        .title {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            @include get-color(text-shadow, shadow);
+        }
+
+        .form {
+            .content {
+                display: flex;
+                align-items: center;
+                font-size: 2rem;
+                margin-bottom: 10px;
+                .image {
+                   position: relative;
+                   width: 3rem;
+                   height: 3rem;
+                    margin-right: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .contact {
+        .contactContainer {
+            .title {
+                font-size: 2.5rem;
+
+            }
+            .form {
+                .content {
+                    font-size: 1rem;
+
+                    .image {
+                        width: 2rem;
+                        height: 2rem;
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+  }

@@ -1,0 +1,91 @@
+@import './theme.scss';
+
+.skill {
+    padding: 5rem 5rem 0 5rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include get-color(color, text-color);
+    font-family: "Jua", sans-serif;
+    
+
+    .skillTitle {
+        text-align: center;
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+        
+        @include get-color(text-shadow, shadow);
+    }
+
+    .skillContainer {
+        border-radius: 30px;
+        width: 42rem;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        @include get-color(background, primary);
+        @include get-color(background-color, rgba);
+        @include get-color(border-color, br-color);
+        padding: 2rem;
+
+
+        .part {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+
+        .itemContainer {
+            display: flex;
+            flex-wrap: wrap;
+
+            .item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                .image {
+                    width: 96px;
+                    height: 96px;
+                    margin: 10px;
+                    position: relative;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 650px) {
+    .skill {
+        padding: 1rem 1rem 0 1rem;
+        .skillTitle {
+            font-size: 2.5rem;
+        }
+
+        .skillContainer {
+            width: 80%;
+            border-radius: 20px;
+            padding: 1.5rem;
+
+            .part {
+                font-size: 1.5rem;
+            }
+            .itemContainer {
+                .item {
+                    font-size: 0.8rem;
+                    .image {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

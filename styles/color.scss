@@ -1,12 +1,20 @@
 $colors: (
   light: (
-    bg-color: #fff,
-    text-color: rgb(71, 71, 71),
-    br-color: rgb(71, 71, 71),
+    primary: #a9cec2,
+    bg-color: rgb(246, 246, 246),
+    text-color: #2d2d2d,
+    br-color: #2d2d2d,
+    bg-image: url("../public/images/light-background.png"),
+    shadow: 2px 2px 2px #72898f,
+    rgba: #75b4cd4d,
   ),
   dark: (
-    bg-color: rgb(71, 71, 71),
-    text-color: #fff,
-    br-color: #fff,
+    primary: #79afbd,
+    bg-color: #2d2d2d,
+    text-color: rgb(246, 246, 246),
+    br-color: rgb(246, 246, 246),
+    bg-image: url("../public/images/dark-background.png"),
+    shadow: 2px 2px 2px #a9cec2,
+    rgba: rgba(159, 193, 210, 0.3),
   ),
 );
