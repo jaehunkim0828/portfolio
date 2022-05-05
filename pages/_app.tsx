@@ -31,6 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
               name="og:description"
               content="안녕하세요. Front-end개발자 김재훈입니다."
           />
+          <meta name="google-site-verification" content="bBVBzF9clPp3PeE7RBQxuNRmeAsEF6niPFeMBuvEaPw" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet"></link>
