@@ -352,9 +352,9 @@ export const projectAll = [
 ];
 
 export const contacts = [
-     { image:instar, name: '인스타그램'},
-     { image:github, name: '깃허브'},
-     { image:tistory, name: '티스토리'},
+     { image:instar, name: '인스타그램', path: 'https://www.instagram.com/dev.jaehun/'},
+     { image:github, name: '깃허브', path: 'https://github.com/jaehunkim0828'},
+     { image:tistory, name: '티스토리', path: 'https://hun-dev.tistory.com/'},
      { image:mail, name: 'jhunkim0828@gmail.com'},
      { image:phone, name: '010-3123-1308'},
 ];

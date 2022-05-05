@@ -18,7 +18,10 @@ export default function Contact() {
                             <div className={style.image}>
                                 <Image src={e.image} layout='fill'alt='contact'/>
                             </div>
-                            <a className={GetTheme(style, style.link)} href='https://github.com/jaehunkim0828'>{e.name}</a>
+                            {e.path ? 
+                                <a className={GetTheme(style, style.link)} href={e.path}>{e.name}</a> : 
+                                <div className={GetTheme(style, style.link)}>{e.name}</div>
+                            }
                         </div>
                     ))}
                 </form>
