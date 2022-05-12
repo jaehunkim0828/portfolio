@@ -34,6 +34,8 @@ import instar from './public/images/instar.svg';
 import mail from './public/images/mail.svg';
 import phone from './public/images/phone.svg';
 import tistory from './public/images/tistory-logo-fill.svg';
+import firebase from './public/images/firebase.svg';
+import gcp from './public/images/gcp.svg';
 
 
 
@@ -44,26 +46,28 @@ export const navProfile = [
 ];
 
 export const front = [
-    { image: js,name: 'Javascript' },
-    { image: ts,name: 'Typescript' },
-    { image: css,name: 'CSS' },
-    { image: html,name: 'HTML' },
-    { image: react,name: 'REACT' },
-    { image: next,name: 'NEXT' },
-    { image: redux,name: 'Redux' },
+    { image: js,name: 'Javascript', projects: ['Vocatest', '도혜 건설', 'Lunch Time', 'Chatting App'] },
+    { image: ts,name: 'Typescript', projects: ['TFT story', 'Working TIme'] },
+    { image: css,name: 'CSS', projects: ['모두 사용'] },
+    { image: html,name: 'HTML', projects: ['모두 사용'] },
+    { image: react,name: 'REACT', projects: ['Vocatest', '도혜 건설'] },
+    { image: next,name: 'NEXT', projects: ['TFT story', 'Working TIme', 'Chatting App'] },
+    { image: redux,name: 'Redux', projects: ['TFT story', 'Chatting App', 'Working Time'] },
 ];
 
 export const back = [
-    { image: mysql,name: 'Mysql' },
-    { image: expressjs ,name: 'Express.js' },
+    { image: mysql,name: 'Mysql', projects: ['TFT story', 'Lunch Time', 'Vocatest'] },
+    { image: expressjs ,name: 'Express.js', projects: ['Lunch Time', 'VocaTest', 'TFT story'] },
+    { image: firebase ,name: 'Firebase', projects: ['Chatting App'] },
 ];
 
 export const rest = [
-    { image: git,name: 'Git' },
-    { image: github,name: 'Github' },
-    { image: docker,name: 'Docker' },
-    { image: vscode,name: 'VScode' },
-    { image: aws,name: 'AWS' },
+    { image: git,name: 'Git', projects: ['모두 사용'] },
+    { image: github,name: 'Github', projects: ['모두 사용'] },
+    { image: docker,name: 'Docker', projects: ['Lunch Time'] },
+    { image: vscode,name: 'VScode', projects: ['모두 사용'] },
+    { image: aws, name: 'AWS', projects: ['TFT Story', 'vocatest', 'Lunch Time'] },
+    { image: gcp, name: 'GCP', projects: ['도혜 건설'] },
 ];
 
 export const projects = [

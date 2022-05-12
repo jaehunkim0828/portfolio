@@ -14,7 +14,7 @@ export default function Skills() {
                     <div className={style.part}>Front-end</div>
                     <div className={style.itemContainer}>
                         {front.map((e, i) => (
-                            <Skill element={e} index={i} key={i} />
+                            <Skill element={e} index={i} section={'front'} key={i} />
                         ))}
                     </div>
                 </div>
@@ -22,7 +22,7 @@ export default function Skills() {
                     <div className={style.part}>Back-end</div>
                     <div className={style.itemContainer}>
                         {back.map((e, i) => (
-                            <Skill element={e} index={i} key={i} />
+                            <Skill element={e} index={i} section={'back'} key={i} />
                         ))}
                     </div>
                 </div>
@@ -30,7 +30,7 @@ export default function Skills() {
                     <div className={style.part}>Rest Tools</div>
                     <div className={style.itemContainer}>
                         {rest.map((e, i) => (
-                            <Skill element={e} index={i} key={i} />
+                            <Skill element={e} index={i} section={'rest'} key={i} />
                         ))}
                     </div>
                 </div>
