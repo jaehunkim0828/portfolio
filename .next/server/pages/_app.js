@@ -226,8 +226,8 @@ var nav_module_default = /*#__PURE__*/__webpack_require__.n(nav_module);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(5675);
 var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-// EXTERNAL MODULE: ./data.ts + 37 modules
-var data = __webpack_require__(2427);
+// EXTERNAL MODULE: ./data.ts + 40 modules
+var data = __webpack_require__(3926);
 // EXTERNAL MODULE: ./hooks/useResize.ts
 var useResize = __webpack_require__(3149);
 ;// CONCATENATED MODULE: ./public/images/navtoggle.svg
@@ -498,7 +498,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [686,675,233], () => (__webpack_exec__(706)));
+var __webpack_exports__ = __webpack_require__.X(0, [686,675,501], () => (__webpack_exec__(706)));
 module.exports = __webpack_exports__;
 
 })();
