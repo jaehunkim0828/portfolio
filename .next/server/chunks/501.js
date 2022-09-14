@@ -351,7 +351,8 @@ const projectAll = [
             {
                 name: "\uC694\uC57D \uD83D\uDD8D",
                 content: [
-                    `피파온라인4 게임에서 선수들마다 능력치는 비슷하지만 가격은 천차만별입니다. 개인 선수마다 키차이, 특수 능력, 체감때문에 선수의 가격의 차이가 발생합니다. 대중들이 사용했을때 좋다고 했던 선수들은 과연 데이터 상에서도 충분히 값어치를 하고싶은지 알고싶어서 프로젝트를 시작하게 되었습니다.`, 
+                    `피파온라인4 게임에서 선수들마다 능력치는 비슷하지만 가격은 천차만별입니다. 개인 선수마다 키차이, 특수 능력, 체감때문에 선수의 가격의 차이가 발생합니다. 대중들이 사용했을때 좋다고 했던 선수들은 과연 데이터 상에서도 충분히 값어치를 하고싶은지 알고싶어서 프로젝트를 시작하게 되었습니다.`,
+                    `https://f4coach.com`, 
                 ]
             },
             {
@@ -408,8 +409,7 @@ const projectAll = [
     },
     {
         url: [
-            "https://github.com/jaehunkim0828/TFT-story",
-            "http://tftstory.com"
+            "https://github.com/jaehunkim0828/TFT-story"
         ],
         name: "TFT story",
         image: [
@@ -541,8 +541,7 @@ const projectAll = [
     },
     {
         url: [
-            "https://github.com/jaehunkim0828/voca-test-aws",
-            "https://dailyvocatest.tk/", 
+            "https://github.com/jaehunkim0828/voca-test-aws"
         ],
         name: "Voca Test",
         image: [
